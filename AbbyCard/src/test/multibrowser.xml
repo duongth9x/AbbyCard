@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="CrossBrowser/MultiBrowser">
+
+<!-- <suite name="s CrossBrowser/MultiBrowser" parallel="tests" thread-count="4"> -->
+
+<!--<test name="Test login AbbyCard in chrome">
+  <parameter name="browser" value="chrome" />
+  <classes>
+    <class name="test.Login_test" />
+  </classes>
+ </test>-->
+<test name="Test login AbbyCard in firefox">
+  <parameter name="browser" value="firefox" />
+  <classes>
+    <class name="test.Login_test" />
+  </classes>
+ </test>
+ <!--<test name="Test login AbbyCard in coccoc">
+  <parameter name="browser" value="coccoc" />
+  <classes>
+    <class name="test.Login_test" />
+  </classes>
+ </test>-->
+ <!--<test name="Test login AbbyCard in ie">
+  <parameter name="browser" value="ie" />
+  <classes>
+    <class name="test.Login_test" />
+  </classes>
+ </test>-->
+ 
+ 
+ <!--<test name="Test AbbyCard in chrome">
+  <parameter name="browser" value="chrome" />
+  <classes>
+    <class name="test.Register_test_POI" />
+  </classes>
+ </test>-->
+ 
+ <!-- <test name="Test AbbyCard in coccoc">
+  <parameter name="browser" value="coccoc" />
+  <classes>
+    <class name="test.Register_test_POI" />
+  </classes>
+ </test> -->
+
+<!--  <test name="Test AbbyCard in ie">
+  <parameter name="browser" value="ie" />
+  <classes>
+    <class name="test.Register_test_POI" />
+  </classes>
+ </test> -->
+
+ <!--<test name="Test AbbyCard in firefox">
+  <parameter name="browser" value="firefox" />
+  <classes>
+    <class name="test.Login_test" />
+  </classes>
+ </test>-->
+ 
+ </suite>

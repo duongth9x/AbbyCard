@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [CrossBrowser/MultiBrowser]">
+  <parameter name="browser" value="firefox"/>
+  <test name="Test login AbbyCard in firefox">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="test.Login_test"/>
+    </classes>
+  </test> <!-- Test login AbbyCard in firefox -->
+</suite> <!-- Failed suite [CrossBrowser/MultiBrowser] -->
