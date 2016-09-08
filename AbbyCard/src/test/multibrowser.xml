@@ -11,12 +11,12 @@
     <class name="test.Login_test" />
   </classes>
  </test>-->
-<test name="Test login AbbyCard in firefox">
+<!--<test name="Test login AbbyCard in firefox">
   <parameter name="browser" value="firefox" />
   <classes>
     <class name="test.Login_test" />
   </classes>
- </test>
+ </test>-->
  <!--<test name="Test login AbbyCard in coccoc">
   <parameter name="browser" value="coccoc" />
   <classes>
@@ -31,12 +31,12 @@
  </test>-->
  
  
- <!--<test name="Test AbbyCard in chrome">
+ <test name="Test AbbyCard in chrome">
   <parameter name="browser" value="chrome" />
   <classes>
     <class name="test.Register_test_POI" />
   </classes>
- </test>-->
+ </test>
  
  <!-- <test name="Test AbbyCard in coccoc">
   <parameter name="browser" value="coccoc" />

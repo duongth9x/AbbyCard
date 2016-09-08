@@ -1,52 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="6" passed="6">
+<testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="CrossBrowser/MultiBrowser" duration-ms="36459" started-at="2016-08-29T10:38:34Z" finished-at="2016-08-29T10:39:11Z">
+  <suite name="CrossBrowser/MultiBrowser" duration-ms="34995" started-at="2016-08-29T16:05:30Z" finished-at="2016-08-29T16:06:05Z">
     <groups>
     </groups>
-    <test name="Test login AbbyCard in firefox" duration-ms="36459" started-at="2016-08-29T10:38:34Z" finished-at="2016-08-29T10:39:11Z">
-      <class name="test.Login_test">
-        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:test.Login_test@1774679]" name="setUp" is-config="true" duration-ms="13948" started-at="2016-08-29T17:38:34Z" finished-at="2016-08-29T17:38:48Z">
+    <test name="Test AbbyCard in chrome" duration-ms="34995" started-at="2016-08-29T16:05:30Z" finished-at="2016-08-29T16:06:05Z">
+      <class name="test.Register_test_POI">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:test.Register_test_POI@1774679]" name="setUp" is-config="true" duration-ms="8010" started-at="2016-08-29T23:05:30Z" finished-at="2016-08-29T23:05:38Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[firefox]]>
+                <![CDATA[chrome]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="Email_and_pass_null()[pri:0, instance:test.Login_test@1774679]" name="Email_and_pass_null" duration-ms="4061" started-at="2016-08-29T17:38:48Z" finished-at="2016-08-29T17:38:52Z">
+        <test-method status="PASS" signature="Register_POI()[pri:0, instance:test.Register_test_POI@1774679]" name="Register_POI" duration-ms="24834" started-at="2016-08-29T23:05:38Z" finished-at="2016-08-29T23:06:03Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Email_and_pass_null -->
-        <test-method status="PASS" signature="Email_invalid()[pri:1, instance:test.Login_test@1774679]" name="Email_invalid" duration-ms="3081" started-at="2016-08-29T17:38:52Z" finished-at="2016-08-29T17:38:56Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Email_invalid -->
-        <test-method status="PASS" signature="Pass_too_short()[pri:2, instance:test.Login_test@1774679]" name="Pass_too_short" duration-ms="2700" started-at="2016-08-29T17:38:56Z" finished-at="2016-08-29T17:38:58Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Pass_too_short -->
-        <test-method status="PASS" signature="Pass_always_right()[pri:3, instance:test.Login_test@1774679]" name="Pass_always_right" duration-ms="2207" started-at="2016-08-29T17:38:58Z" finished-at="2016-08-29T17:39:00Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Pass_always_right -->
-        <test-method status="PASS" signature="Account_unauthenticated()[pri:4, instance:test.Login_test@1774679]" name="Account_unauthenticated" duration-ms="2094" started-at="2016-08-29T17:39:00Z" finished-at="2016-08-29T17:39:03Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Account_unauthenticated -->
-        <test-method status="PASS" signature="Login_successful()[pri:5, instance:test.Login_test@1774679]" name="Login_successful" duration-ms="6706" started-at="2016-08-29T17:39:03Z" finished-at="2016-08-29T17:39:09Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Login_successful -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:test.Login_test@1774679]" name="tearDown" is-config="true" duration-ms="1600" started-at="2016-08-29T17:39:09Z" finished-at="2016-08-29T17:39:11Z">
+        </test-method> <!-- Register_POI -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:test.Register_test_POI@1774679]" name="tearDown" is-config="true" duration-ms="2108" started-at="2016-08-29T23:06:03Z" finished-at="2016-08-29T23:06:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- test.Login_test -->
-    </test> <!-- Test login AbbyCard in firefox -->
+      </class> <!-- test.Register_test_POI -->
+    </test> <!-- Test AbbyCard in chrome -->
   </suite> <!-- CrossBrowser/MultiBrowser -->
 </testng-results>
